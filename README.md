@@ -64,7 +64,7 @@ let obj = new MyClass();
 obj.foo() // 'foo'
 ```
 
-// 实际开发中，React 与 Redux 库结合使用时，常常需要写成下面这样。
+实际开发中，React 与 Redux 库结合使用时，常常需要写成下面这样。
 ```js
 class MyReactComponent extends React.Component {}
 export default connect(mapStateToProps, mapDispatchToProps)(MyReactComponent);
